@@ -3,7 +3,6 @@ from PIL import Image
 import re
 
 from transformers import DonutProcessor, VisionEncoderDecoderModel
-from datasets import load_dataset
 import torch
 
 processor = DonutProcessor.from_pretrained("naver-clova-ix/donut-base-finetuned-cord-v2")
